@@ -1,27 +1,34 @@
 Multiclass Fish Image Classification
-📌 Project Overview
-The Multiclass Fish Image Classification project focuses on classifying fish images into multiple categories using Deep Learning techniques.
+
+Project Overview
+        The Multiclass Fish Image Classification project focuses on classifying fish images into multiple categories using Deep Learning techniques.
+
 The project includes:
         Training a Custom CNN from scratch
         Applying Transfer Learning with multiple pre-trained models
         Model comparison & evaluation
         aving best-performing model
         Deploying a Streamlit web application for real-time predictions
+
 Domain
         Deep Learning
+
 Problem Statement
         Accurately classify fish images into their respective species using deep learning models.
+
 The challenge involves:
         Handling multi-class classification
         Improving generalization using augmentation
         Reducing model bias
+
 Business Use Cases
-1. Enhanced Accuracy
-        Determine the best model architecture for fish classification.
-2. Model Comparison
-        Evaluate multiple CNN architectures and select the most efficient one.
-3. Deployment Ready
-        Provide a real-time prediction interface via a web application.
+        1. Enhanced Accuracy
+                Determine the best model architecture for fish classification.
+        2. Model Comparison
+                Evaluate multiple CNN architectures and select the most efficient one.
+        3. Deployment Ready
+                Provide a real-time prediction interface via a web application.
+
 Skills Gained:
         Deep Learning
         Python
@@ -31,7 +38,8 @@ Skills Gained:
         Model Evaluation Metrics
         Visualization
         
-Project Structure
+Project Structure:
+
         MULTICLASSFISHIMAGECLASSIFICATION/
         │
         ├── data/
@@ -62,11 +70,13 @@ Project Structure
 
 
 Dataset
-Multi-class fish image dataset
-        Images organized into class-specific folders
-        Loaded using TensorFlow ImageDataGenerator
-        provided as ZIP file
+        Multi-class fish image dataset
+                Images organized into class-specific folders
+                Loaded using TensorFlow ImageDataGenerator
+                provided as ZIP file
+
 Project Workflow
+
         1️. Data Preprocessing & Augmentation
                 Rescaled images to [0,1]
                 Applied:
@@ -108,10 +118,12 @@ Streamlit Deployment
                         Predict fish class
                         Show confidence score
                         Display top 5 probabilities
+
 Run the Application
         pip install -r requirements.txt
         streamlit run FishImageClassifier.py
         Then open the local URL shown in terminal.
+
 Project Deliverables:
         Trained Models (.h5)
         Streamlit Web Application
@@ -120,9 +132,11 @@ Project Deliverables:
         Confusion Matrices
         Well-structured GitHub Repository
         Documentation
+
 Key Highlights
         Handled class imbalance (Focal Loss experimentation)
         Compared 6 different architectures
+        
 Author
         Arunkumar S
                 Data Science Aspirant
