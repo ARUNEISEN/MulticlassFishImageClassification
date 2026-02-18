@@ -1,0 +1,22 @@
+{
+    "model_name": "MobileNet",
+    "balanced_accuracy": 0.9894988967545775,
+    "overall_accuracy": 0.9893316598682146,
+    "class_names": [
+        "animal fish",
+        "animal fish bass",
+        "fish sea_food black_sea_sprat",
+        "fish sea_food gilt_head_bream",
+        "fish sea_food hourse_mackerel",
+        "fish sea_food red_mullet",
+        "fish sea_food red_sea_bream",
+        "fish sea_food sea_bass",
+        "fish sea_food shrimp",
+        "fish sea_food striped_red_mullet",
+        "fish sea_food trout"
+    ],
+    "img_size": [
+        224,
+        224
+    ]
+}

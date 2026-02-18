@@ -1,0 +1,30 @@
+# Core Deep Learning
+tensorflow
+keras
+# Data Processing
+numpy
+pandas
+scikit-learn
+# Image Processing
+Pillow
+opencv-python
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Streamlit for Deployment
+streamlit
+
+# Jupyter Notebooks
+jupyter
+ipykernel
+ipywidgets
+
+# Utilities
+tqdm
+python-dateutil
+
+# For saving/loading models
+h5py

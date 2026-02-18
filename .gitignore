@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+env/
+# Dataset
+data/
+
+# Ignore all model files
+Notebooks/models/*.h5
+
+# Allow ONLY this model
+!Notebooks/models/MobileNet_final.h5
+
+# Ignore results
+results/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
