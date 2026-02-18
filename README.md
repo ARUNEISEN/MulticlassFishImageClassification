@@ -60,33 +60,34 @@ Provide a real-time prediction interface via a web application.
 ## Project Structure
 
 
-MULTICLASSFISHIMAGECLASSIFICATION/
-│
-├── data/
-│   ├── train/
-│   └── val/
-│
-├── Notebooks/
-│   ├── Data_Analysis_and_Preprocessing.ipynb
-│   ├── Data_Generators_and_FocalLoss.ipynb
-│   ├── Model_Training.ipynb
-│   ├── Model_Evaluation_and_Comparison.ipynb
-│   └── models/
-│       ├── CustomCNN_best.h5
-│       ├── EfficientNetB0_best.h5
-│       ├── InceptionV3_best.h5
-│       ├── MobileNet_best.h5
-│       ├── ResNet50_best.h5
-│       └── model_metadata.json
-│
-├── results/
-│   ├── confusion_matrices/
-│   ├── metrics/
-│   └── plots/
-│
-├── FishImageClassifier.py
-├── requirements.txt
-└── README.md
+                MULTICLASSFISHIMAGECLASSIFICATION/
+                │
+                ├── data/
+                │   ├── train/
+                │   └── val/
+                |   └── test/
+                │
+                ├── Notebooks/
+                │   ├── Data_Analysis_and_Preprocessing.ipynb
+                │   ├── Data_Generators_and_FocalLoss.ipynb
+                │   ├── Model_Training.ipynb
+                │   ├── Model_Evaluation_and_Comparison.ipynb
+                │   └── models/
+                │       ├── CustomCNN_best.h5
+                │       ├── EfficientNetB0_best.h5
+                │       ├── InceptionV3_best.h5
+                │       ├── MobileNet_best.h5
+                │       ├── ResNet50_best.h5
+                │       └── model_metadata.json
+                │
+                ├── results/
+                │   ├── confusion_matrices/
+                │   ├── metrics/
+                │   └── plots/
+                │
+                ├── FishImageClassifier.py
+                ├── requirements.txt
+                └── README.md
 ```
 
 ---
